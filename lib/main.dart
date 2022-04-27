@@ -1,8 +1,10 @@
 import 'package:cryptocurrency/screens/dashboard_screen.dart';
 import 'package:cryptocurrency/screens/launch_screen.dart';
+import 'package:cryptocurrency/screens/main_screen.dart';
 import 'package:cryptocurrency/screens/on_boarding_screen.dart';
 import 'package:cryptocurrency/screens/out_boarding_screen.dart';
 import 'package:cryptocurrency/screens/login_screen.dart';
+import 'package:cryptocurrency/screens/signin_screen.dart';
 import 'package:cryptocurrency/screens/transaction_history_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -20,9 +22,12 @@ class MyApp extends StatelessWidget {
         '/launch_screen':(context)=>const LaunchScreen(),
         '/out_boarding_screen':(context)=>const OutBoardingScreen(),
         '/login_screen':(context)=>SignIn(),
+        '/signin_screen':(context)=>SigninScreen(),
         'on_boarding_screen':(context)=>OnBoarding(),
         '/dashboard_screen':(context)=>const DashboardScreen(),
         '/transaction_history_screen':(context)=>const TransactionHistory(),
+        '/main_screen':(context)=>const MainScreen(),
+
       },
     );
 

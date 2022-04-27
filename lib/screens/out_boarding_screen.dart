@@ -42,7 +42,7 @@ class _OutBoardingScreenState extends State<OutBoardingScreen> {
               child: Visibility(
                 visible: _currentPage < 2,
                 replacement: TextButton(
-                  onPressed: () => Navigator.pushReplacementNamed(context, '/login_screen'),
+                  onPressed: () => Navigator.pushReplacementNamed(context, '/signin_screen'),
                   child: Text('START'),
                 ),
                 child: TextButton(
